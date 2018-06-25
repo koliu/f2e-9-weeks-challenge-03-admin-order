@@ -4,6 +4,7 @@
     <div class="menu"  @click.stop="() => {}">
       <button class="menu-btn" :class="{ 'active' : show === 'about'}" @click.stop="show = 'about'">About</button>
       <button class="menu-btn" :class="{ 'active' : show === 'specs'}" @click.stop="show = 'specs'">Specs</button>
+      <button class="menu-btn" :class="{ 'active' : show === 'specs-local'}" @click.stop="show = 'specs-local'">Specs(local)</button>
     </div>
     <div class="about" v-show="show === 'about'" @click.stop="() => {}">
       <div class="about-item">
@@ -26,6 +27,8 @@
       </div>
     </div>
     <iframe class="specs" v-show="show === 'specs'" src="https://hexschool.github.io/THE_F2E_Design/week3-admin%20order/"></iframe>
+    
+    <iframe class="specs" v-show="show === 'specs-local'" src="/src/static/spec.html"></iframe>
   </div>
 </template>
 
