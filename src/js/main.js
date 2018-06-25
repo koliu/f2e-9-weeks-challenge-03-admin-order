@@ -5,18 +5,25 @@ import Vue from "./vue.js";
 
 /* vue components */
 import chartComponent from "../components/chart-js-component.vue";
+import about from "../components/about.vue";
 
 Vue.filter("formatCurrency", n => new Intl.NumberFormat().format(n));
 
 new Vue({
   el: "#app",
   data: {
+    showAbout: true,
     activeMenu: "home"
   },
   components: {
-    chartComponent
+    chartComponent,
+    about
   },
-  methods: {},
+  methods: {
+    hideAbout() {
+      this.showAbout = false;
+    }
+  },
   computed: {
     totalRevenue() {
       return 54540;

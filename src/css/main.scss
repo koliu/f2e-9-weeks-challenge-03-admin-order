@@ -19,6 +19,23 @@ body {
   background: $color-gray-lighter;
 }
 
+#btn-about {
+  border: 1px dashed $color-yellow;
+  background: rgba(255, 255, 255, 0.3);
+  color: $color-yellow;
+  position: fixed;
+  right: 5px;
+  top: 5px;
+  z-index: 9999;
+
+  &:hover {
+    border-color: $color-blue;
+    color: $color-blue;
+    cursor: pointer;
+    font-weight: bolder;
+  }
+}
+
 .top-bar {
   align-items: center;
   display: flex;
