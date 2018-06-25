@@ -2,12 +2,12 @@
 
 ---
 
-## [DEMO](./dist/)
+## [DEMO](dist/index.html)
 
 ## spec
 
 - https://hexschool.github.io/THE_F2E_Design/week3-admin%20order/#artboard0
-- ./src/static/spec.html
+- [local](./src/static/spec.html)
 
 ## fontawesome.com
 
