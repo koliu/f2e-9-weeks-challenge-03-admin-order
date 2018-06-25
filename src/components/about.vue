@@ -28,7 +28,7 @@
     </div>
     <iframe class="specs" v-show="show === 'specs'" src="https://hexschool.github.io/THE_F2E_Design/week3-admin%20order/"></iframe>
     
-    <iframe class="specs" v-show="show === 'specs-local'" src="/src/static/spec.html"></iframe>
+    <iframe class="specs" v-show="show === 'specs-local'" src="../src/static/spec.html"></iframe>
   </div>
 </template>
 
