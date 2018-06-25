@@ -2,6 +2,8 @@
 
 ---
 
+## [DEMO](https://koliu.github.io/f2e-9-weeks-challenge-03-admin-order/dist/)
+
 ## spec
 
 https://hexschool.github.io/THE_F2E_Design/week3-admin%20order/#artboard0
